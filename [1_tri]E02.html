@@ -1,0 +1,21 @@
+<meta charset="UTF-8" />
+<script>
+    //Problema: Consumo de Água
+    /*
+    Considere que uma pessoa toma, a cada dois dias, 7 garrafas de água, sendo que esta garrafa contém 600 ml. Peça para o usuário informar qual o preço da garrafa de água.
+    Calcule quantos litros de água a pessoa terá tomado ao fim de 2 anos e quantos reais terá gasto. Apresente os dois resultados na tela.
+    **Considere que um ano possui 365 dias!
+    */
+
+    const preco = Number(prompt("Qual o valor da garrafa de água ?"))
+
+    const garrafas = 3.5 * 730
+
+    const custoFinal = preco * garrafas
+
+    const litros = 0.6 * garrafas
+
+    document.write(`O gasto total é de ${custoFinal}`)
+    document.write(`Tem ${litros} Litros`)
+
+</script>
